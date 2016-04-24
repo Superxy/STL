@@ -20,6 +20,8 @@ public:
 	deque() { cout << "deque()" << endl; }
 };
 
+
+//根据前一个参数T，设定下一个参数Sequence的默认值为deque<T>
 template <typename T, typename Sequence = deque<T> >
 class stack
 {
